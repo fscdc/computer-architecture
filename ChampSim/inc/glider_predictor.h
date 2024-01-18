@@ -7,6 +7,7 @@ using namespace std;
 #include <numeric>
 #include "optgen.h"
 #include "helper_function.h"
+#include "falcon.h"
 
 #define MAX_PCMAP 31
 #define PCMAP_SIZE 16 // 先假定为16
