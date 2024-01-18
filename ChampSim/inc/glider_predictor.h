@@ -16,6 +16,14 @@ using namespace std;
 #define GLIDER_THRESHOLD_HIGH 60 // 预测阈值
 #define GLIDER_THRESHOLD_LOW 0
 
+// NOTE: 添加逻辑，提供向Falcon的反馈机制
+struct Feedback {
+  uint32_t miss_rate;    // Cache miss rate
+  uint32_t hit_rate;     // Cache hit rate
+  uint32_t replace_rate; // Cache replacement rate
+  uint32_t utilization;  // Cache utilization
+};
+
 enum class Prediction
 {
     High,
