@@ -1,0 +1,4 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "cmake.sourceDirectory": "/home/fsc/ChampSim/vcpkg/ports/libsvm"
+}
